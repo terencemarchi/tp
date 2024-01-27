@@ -39,10 +39,14 @@ li {
     margin: 0 10px;  /* Ajout de marges pour séparer les boutons */
 }
 
-/* balise pour les bouttons */
+/* Styles généraux pour tous les liens */
 a {
     text-decoration: none;
     color: #333;
+}
+
+/* Styles spécifiques pour les liens avec la classe "lien-styled" */
+a.lien-styled {
     font-weight: bold;
     border: 2px solid #333;
     padding: 10px 20px;
@@ -51,10 +55,10 @@ a {
     transition: background-color 0.3s, color 0.3s;
 }
 
-a:hover {
-    background-color: #333;  /* Couleur de fond au survol */
+a.lien-styled:hover {
+    background-color: #333;
     color: white;
-    border: 2px solid #333;  /* Couleur du contour au survol */
+    border: 2px solid #333;
 }
 
 .tp-item {
