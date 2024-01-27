@@ -55,3 +55,28 @@ a:hover {
     color: white;
     border: 2px solid #333;  /* Couleur du contour au survol */
 }
+
+.tp-item {
+    display: flex;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.tp-left, .tp-right {
+    flex: 1;
+    padding: 10px;
+}
+
+.tp-left {
+    border-right: 1px solid #ddd;
+}
+
+.tp-left h2, .tp-right h2 {
+    margin-top: 0;
+}
+
+.tp-right {
+    background-color: #f9f9f9;
+}
+
