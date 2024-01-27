@@ -39,6 +39,7 @@ li {
     margin: 0 10px;  /* Ajout de marges pour séparer les boutons */
 }
 
+/* balise pour les bouttons */
 a {
     text-decoration: none;
     color: #333;
@@ -80,3 +81,21 @@ a:hover {
     background-color: #f9f9f9;
 }
 
+/* Media Query pour les petits écrans comme les téléphones */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+}
