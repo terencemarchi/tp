@@ -86,3 +86,15 @@ a.lien-styled:hover {
     background-color: #f9f9f9;
 }
 
+.p1 {
+    position: absolute;
+    top: 800px; /* ajustez selon votre besoin */
+    left: 450px; /* ajustez selon votre besoin */
+}
+
+.p2 {
+    position: absolute;
+    top: 800px; /* ajustez selon votre besoin */
+    left: 1370px; /* ajustez selon votre besoin */
+}
+
