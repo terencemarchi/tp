@@ -1,4 +1,4 @@
 AuthType Basic
-AuthName "Accès protégé"
-AuthUserFile main/mdp/.htpasswd
+AuthName "Accès protégé par mot de passe ;)"
+AuthUserFile tp/mdp/.htpasswd
 require valid-user
