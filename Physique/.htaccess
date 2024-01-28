@@ -1,1 +1,4 @@
-
+AuthType Basic
+AuthName "Accès protégé"
+AuthUserFile main/mdp/.htpasswd
+require valid-user
