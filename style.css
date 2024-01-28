@@ -36,7 +36,7 @@ ul {
 }
 
 li {
-    margin: 0 10px;  /* Ajout de marges pour séparer les boutons */
+    margin: 0 20px;  /* Ajout de marges pour séparer les boutons */
 }
 
 /* Styles généraux pour tous les liens */
@@ -84,6 +84,18 @@ a.lien-styled:hover {
 
 .tp-right {
     background-color: #f9f9f9;
+}
+
+.p1 {
+    position: absolute;
+    top: 800px; /* ajustez selon votre besoin */
+    left: 450px; /* ajustez selon votre besoin */
+}
+
+.p2 {
+    position: absolute;
+    top: 800px; /* ajustez selon votre besoin */
+    left: 1370px; /* ajustez selon votre besoin */
 }
 
 
