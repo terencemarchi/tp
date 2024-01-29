@@ -87,15 +87,13 @@ a.lien-styled:hover {
 }
 
 .p1 {
-    position: absolute;
-    top: 800px; /* ajustez selon votre besoin */
-    left: 450px; /* ajustez selon votre besoin */
+    text-align: center;
+    margin-left: 20%;
 }
 
 .p2 {
-    position: absolute;
-    top: 800px; /* ajustez selon votre besoin */
-    left: 1370px; /* ajustez selon votre besoin */
+    text-align: center;
+    margin-right: 20%;
 }
 
 .image-container {
@@ -112,7 +110,7 @@ a.lien-styled:hover {
 
 .button-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 10px;
 }
 
