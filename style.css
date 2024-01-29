@@ -98,9 +98,7 @@ a.lien-styled:hover {
     left: 1370px; /* ajustez selon votre besoin */
 }
 
-body {
-  display: flex;
-}
+
 
 .colonne {
   flex: 1;
