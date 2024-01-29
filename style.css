@@ -118,17 +118,6 @@ a.lien-styled:hover {
     text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
-    /* ... (styles pour les petits écrans) */
-
-    .button-container {
-        flex-direction: column;
-    }
-
-    .p1, .p2 {
-        margin-top: 10px;
-    }
-}
 
 
 
